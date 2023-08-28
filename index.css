@@ -1,0 +1,77 @@
+html, body, *{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+nav{
+    background-color: rgba(17, 85, 204, 0.4);
+    width: 29%;
+    height: 100vh;
+    padding: 40px 20px;
+    display: block;
+    float: left;
+    text-align: center;
+}
+
+nav h3{
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+nav ul{
+    padding: 0;
+    list-style: none;
+    text-align: left;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 14px;
+}
+
+nav ul li{
+    margin-bottom: 10px;
+}
+
+.pic{
+    display: inline-block;
+    overflow: hidden;
+    width: 160px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+.pic img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+
+section{
+    border: 2px solid rgba(17, 85, 204, 0.4);
+    width: 71%;
+    height: 100vh;
+    padding: 20px;
+    display: block;
+    float: right;
+    overflow: auto;
+}
+
+h2{
+    padding: 15px;
+    background-color: rgba(17, 85, 204, 0.4);
+    color: #000000;
+    width: 100%;
+    font-size: 17px;
+    font-weight: 900;
+    font-family: sans-serif;
+}
+
+section p{
+    font-size: 15px;
+}
